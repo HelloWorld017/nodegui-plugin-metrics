@@ -1,0 +1,33 @@
+{
+  "name": "nodegui-plugin-metrics",
+  "version": "1.0.0",
+  "description": "A QFontMetrics binding for nodegui",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "cross-env CMAKE_BUILD_PARALLEL_LEVEL=8 cmake-js compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HelloWorld017/nodegui-plugin-metrics.git"
+  },
+  "keywords": [
+    "nodegui"
+  ],
+  "author": "Khinenw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HelloWorld017/nodegui-plugin-metrics/issues"
+  },
+  "homepage": "https://github.com/HelloWorld017/nodegui-plugin-metrics#readme",
+  "peerDependencies": {
+    "@nodegui/nodegui": ">=0.20.0"
+  },
+  "devDependencies": {
+    "@nodegui/nodegui": "^0.24.0"
+  },
+  "dependencies": {
+    "cmake-js": "^6.1.0",
+    "cross-env": "^7.0.2",
+    "node-addon-api": "^3.0.0"
+  }
+}
